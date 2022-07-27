@@ -1,16 +1,10 @@
-import logo from "./logo.svg";
-import './App.css';
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-
+import "./App.css";
+import RenderingLists from "./components/RenderingLists";
 
 function App() {
-  return (
-    <div className="App">
-      <ConditionalRenderingClass/>
-      <ConditionalRenderingFunctional connected={true}/>
-    </div>
-  );
+  return <div className="App">
+      <RenderingLists />
+  </div>;
 }
 
 export default App;
