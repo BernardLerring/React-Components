@@ -1,9 +1,9 @@
 import "./App.css";
-import UncontrolledForm from "./components/UncontrolledForm";
+import UseStateWithArrays from "./components/UseStateWithArrays";
 
 function App() {
   return <div className="App">
-      <UncontrolledForm />
+      <UseStateWithArrays />
   </div>;
 }
 
